@@ -1,0 +1,34 @@
+{
+    "name":         "clanmunity/clanmunity",
+    "description":  "Clanmunity CMS",
+    "keywords":     ["cms", "gamers", "clan"],
+    "type":         "cms",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name": "maclovr@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                          ">=5.3.3",
+
+        "clanmunity/framework":         "*@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "Clanmunity": "." }
+    },
+    "autoload": {
+        "psr-0": { "Clanmunity\\spec": "spec/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.0-dev"
+        }
+    }
+}
