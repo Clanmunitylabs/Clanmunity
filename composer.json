@@ -6,7 +6,8 @@
     "license":      "MIT",
     "authors": [
         {
-            "name": "maclovr@gmail.com"
+            "name": "maclovr",
+            "email": "maclovr@gmail.com"
         }
     ],
     "require": {
@@ -18,12 +19,16 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Clanmunity": "Clanmunity" }
+        "psr-0": {
+            "Clanmunity": "Clanmunity"
+        }
     },
     "autoload": {
         "psr-0": { "Clanmunity\\spec": "spec/" }
     },
     "extra": {
+        "clanmunity-app-dir": "app",
+        "clanmunity-web-dir": "web",
         "branch-alias": {
             "dev-master": "0.0.0-dev"
         }
