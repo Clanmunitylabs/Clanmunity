@@ -26,6 +26,7 @@
     "autoload": {
         "psr-0": { "Clanmunity\\spec": "spec/" }
     },
+    "minimum-stability": "dev",
     "extra": {
         "clanmunity-app-dir": "app",
         "clanmunity-web-dir": "web",
